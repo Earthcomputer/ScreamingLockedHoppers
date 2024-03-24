@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "screaming-locked-hoppers",
+	"version": "${version}",
+	"name": "Screaming Locked Hoppers",
+	"description": "Hoppers don't like to be locked!",
+	"authors": [
+		"Earthcomputer"
+	],
+	"contact": {
+		"homepage": "https://earthcomputer.net/",
+		"sources": "https://github.com/Earthcomputer/ScreamingLockedHoppers/",
+		"issues": "https://github.com/Earthcomputer/ScreamingLockedHoppers/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/screaming-locked-hoppers/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.earthcomputer.ScreamingLockedHoppers"
+		],
+		"client": [
+			"net.earthcomputer.ScreamingLockedHoppersClient"
+		]
+	},
+	"mixins": [
+		"screaming-locked-hoppers.mixins.json",
+		{
+			"config": "screaming-locked-hoppers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabric-api": "*"
+	}
+}

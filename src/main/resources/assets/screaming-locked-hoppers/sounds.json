@@ -1,0 +1,18 @@
+{
+  "hopper_screams": {
+    "subtitle": "subtitles.screaming-locked-hoppers.hopper_screams",
+    "sounds": [
+      "screaming-locked-hoppers:screaming1",
+      "screaming-locked-hoppers:screaming2",
+      "screaming-locked-hoppers:screaming3",
+      "screaming-locked-hoppers:screaming4",
+      "screaming-locked-hoppers:screaming5",
+      "screaming-locked-hoppers:screaming6",
+      "screaming-locked-hoppers:screaming7",
+      "screaming-locked-hoppers:screaming8",
+      "screaming-locked-hoppers:screaming9",
+      "screaming-locked-hoppers:screaming10",
+      "screaming-locked-hoppers:screaming11"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "enabled=false,facing=down": {
+      "model": "screaming-locked-hoppers:block/hopper_screaming"
+    },
+    "enabled=false,facing=east": {
+      "model": "screaming-locked-hoppers:block/hopper_side_screaming",
+      "y": 90
+    },
+    "enabled=false,facing=north": {
+      "model": "screaming-locked-hoppers:block/hopper_side_screaming"
+    },
+    "enabled=false,facing=south": {
+      "model": "screaming-locked-hoppers:block/hopper_side_screaming",
+      "y": 180
+    },
+    "enabled=false,facing=west": {
+      "model": "screaming-locked-hoppers:block/hopper_side_screaming",
+      "y": 270
+    },
+    "enabled=true,facing=down": {
+      "model": "minecraft:block/hopper"
+    },
+    "enabled=true,facing=east": {
+      "model": "minecraft:block/hopper_side",
+      "y": 90
+    },
+    "enabled=true,facing=north": {
+      "model": "minecraft:block/hopper_side"
+    },
+    "enabled=true,facing=south": {
+      "model": "minecraft:block/hopper_side",
+      "y": 180
+    },
+    "enabled=true,facing=west": {
+      "model": "minecraft:block/hopper_side",
+      "y": 270
+    }
+  }
+}
